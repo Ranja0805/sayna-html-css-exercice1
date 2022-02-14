@@ -1,0 +1,95 @@
+body {
+    background:  url(background.png) , url(background.png) , url(background.png) ,#C55394  ;
+    background-size: 15% , 15%, 15%,50%;
+    background-repeat:  repeat-x , repeat-x,repeat-x, no-repeat;
+    background-position: 0px 50px, 0px 240px , 0px 430px;
+
+}
+
+.navbar{
+    width:1350px ;
+    height: 1100px ;
+    margin: 10px;
+    
+}
+    
+.icon{
+    width: 200px ;
+    float:left ;
+    height: 70px;
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    font-family:cursive;
+    margin: 0px;
+}
+.menu{
+    width: 400px; ;
+    float: left;
+    height: 90px;
+   
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    
+}
+ul li{
+    margin-left: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+ul li a:hover{
+    background-color:purple;  
+    display: block;
+     border-style: solid;
+    border-color: purple;
+    border-radius: 10px;
+
+}
+
+
+.titre{
+    float:left;
+   margin: 0px;
+   image-rendering: crisp-edges;
+   
+}
+.soratra{
+    color: #C55394;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    padding: 150px;
+    margin-left: 150px;
+}
+img{
+    padding: 55px;
+    margin-left: 300px;
+    height: 300px;
+    width: 500px;
+}
+
+iframe{
+    width: 900px;
+    height: 750px;
+   position: absolute;
+   top: 230px;
+   left: 175px;
+}
